@@ -2,7 +2,7 @@ import React from "react";
 import "./Botao.scss";
 class Botao extends React.Component {
   render() {
-    return <button className="botao">Adicionar</button>;
+    return <button className="botao">{this.props.children}</button>;
   }
 }
 

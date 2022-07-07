@@ -26,7 +26,7 @@ class Formulario extends React.Component {
             max="02:00:00"
           />
         </div>
-        <Botao />
+        <Botao>Adicionar</Botao>
       </form>
     );
   }
