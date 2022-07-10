@@ -1,8 +1,15 @@
 import React from "react";
 import "./Botao.scss";
-class Botao extends React.Component {
+class Botao extends React.Component<{
+  type?: "button" | "submit" | "reset" | undefined;
+}> {
   render() {
-    return <button className="botao">{this.props.children}</button>;
+    const { type = "button" } = this.props;
+    return (
+      <button type={type} className="botao">
+        {this.props.children}
+      </button>
+    );
   }
 }
 
