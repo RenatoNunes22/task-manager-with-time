@@ -1,12 +1,12 @@
 import React from "react";
-import "./Botao.scss";
+import style from "./Botao.module.scss";
 class Botao extends React.Component<{
   type?: "button" | "submit" | "reset" | undefined;
 }> {
   render() {
     const { type = "button" } = this.props;
     return (
-      <button type={type} className="botao">
+      <button type={type} className={style.botao}>
         {this.props.children}
       </button>
     );
