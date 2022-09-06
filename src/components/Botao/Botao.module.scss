@@ -1,6 +1,6 @@
 .botao {
   align-self: center;
-  background-color: #bbdec6;
+  background-color: #FFD525;
   border-radius: 10px;
   box-shadow: 2px 4px 4px #0000009f;
   color: #272626;
@@ -10,12 +10,14 @@
   width: 150px;
 
   &:active {
-    background-color: #7ca6b7;
+    background-color: #cbc401;
     box-shadow: 2px 2px 4px #0000009f inset;
   }
 
   &:hover {
-    background-color: #0ca9b9;
+    background-color: #cbc401;
+    width: 180px;
+    transition: 500ms;
   }
 }
 

@@ -6,7 +6,7 @@
 
   .relogioWrapper {
     align-items: center;
-    background-color: #5a7f78;
+    background-color: #295097;
     border-radius: 10px;
     box-shadow: 2px 4px 4px #0000009F;
     box-sizing: border-box;
@@ -16,6 +16,7 @@
     margin-bottom: 24px;
     padding: 16px 12px;
     width: 100%;
+    
   }
 
   .titulo {
@@ -24,7 +25,7 @@
   }
 
   button {
-    background-color: #bbdec6;
+    background-color: #FFD525;
     border-radius: 10px;
     box-shadow: 2px 4px 4px #0000009F;
     color: #272626;
@@ -32,11 +33,12 @@
     font-size: 1.25rem;
     padding: 16px;
     width: 150px;
-    
+      
     &:active {
-      background-color: #7CA6B7;
+      background-color: #FFD599;
       box-shadow: 2px 2px 4px #0000009F inset;
       cursor: auto;
+      
     }
   }
 

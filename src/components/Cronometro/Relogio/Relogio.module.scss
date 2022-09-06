@@ -1,10 +1,11 @@
 .relogioNumero {
-  background-color: #314c53;
+  background-color: #179AF2;
   box-shadow: 2px 2px 4px #2B2B2B inset;
   height: 75px;
   width: 45px;
   padding: 8px 4px;
   border-radius: 10px;
+  border: 2px solid #171586;
 
   @media screen and (min-width:1280px) {
     height: 180px;
